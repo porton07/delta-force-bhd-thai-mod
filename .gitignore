@@ -1,0 +1,30 @@
+# Game binaries, backups, builds, and test sandboxes (do NOT commit copyrighted game files)
+backup/
+backup-menu-test/
+BaselineOriginalTest/
+build-campaign-test/
+build-full-thai/
+build-menu-test/
+FullGameTest/
+RunMenuTest/
+evidence/
+__pycache__/
+**/__pycache__/
+
+# Compiled / binary / archive artifacts
+*.pff
+*.exe
+*.dll
+*.bin
+*.lib
+*.exp
+*.obj
+*.pdb
+*.zip
+*.7z
+*.log
+*.png
+*.bmp
+
+# Scratch CSVs in root of ThaiPatch (keep translation/*.csv)
+/*.csv
